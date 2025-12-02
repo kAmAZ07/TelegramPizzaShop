@@ -148,7 +148,12 @@ $$
 **Задача 4.2 (Система непрерывных СВ)**
 Совместная плотность распределения $f(x,y)$ задана:
 $$
-f(x,y) = \begin{cases} C x y, & 0 \le x \le 1, 0 \le y \le 2 \\ 0, \end{cases}
+f(x,y) = \left\{
+\begin{array}{ll}
+C x y, & 0 \le x \le 1,\ 0 \le y \le 2 \\
+0, & \text{otherwise}
+\end{array}
+\right.
 $$
 1.  Найти константу $C$.
 2.  Найти маргинальные плотности $f_X(x)$ и $f_Y(y)$.
